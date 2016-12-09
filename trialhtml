@@ -5,7 +5,7 @@
 function validateForm() {
     var x = document.forms["myForm"]["fname"].value;
     if (x == "") {
-        alert("Name must be filled out");
+        alert("Name must be spelled out");
         return false;
     }
 }
